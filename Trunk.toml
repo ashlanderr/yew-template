@@ -1,0 +1,2 @@
+[build]
+pattern_script = "<script type=\"module\">import init from '{base}{js}';init('{base}{wasm}').then(wasm=>wasm.start());</script>"
